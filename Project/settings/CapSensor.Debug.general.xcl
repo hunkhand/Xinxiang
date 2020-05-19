@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armjlink2.dll" 
+
+"F:\信为产品\10 - SFC-A 油液传感器\SCap_Car(F3协议)\Project\Debug\Exe\SFC_A_PWM.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\debugger\ST\STM32F0xx.dmac" 
+
+--flash_loader="F:\信为产品\10 - SFC-A 油液传感器\SCap_Car(F3协议)\Project\CapSensor.board" 
+
+
+
+

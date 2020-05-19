@@ -1,0 +1,1129 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  05/May/2020  17:27:48
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Exe\CapSensor.out
+#    Map file     =  
+#        F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\List\CapSensor.map
+#    Command line =  
+#        -f C:\Users\李\AppData\Local\Temp\EW5D9E.tmp ("F:\信为产品\10 -
+#        SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\algorithm.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\AT24cxx.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\bsp.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\bsp_int.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\Capacitive.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\cpu_a.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\cpu_c.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\cpu_core.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\cstartup.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\DA.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\Filter.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\led.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\lib_ascii.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\lib_math.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\lib_mem.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\lib_str.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\main.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\MEMS.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\MMA8652.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\modbus.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\modbus_ascii.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\nvic.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_app_hooks.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_cfg_app.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_core.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_cpu_a.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_cpu_c.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_dbg.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_flag.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_int.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_mem.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_msg.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_mutex.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_pend_multi.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_prio.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_q.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_sem.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_stat.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_task.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_tick.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_time.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_tmr.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\os_var.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\PCap.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\SoftwareIIC.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_adc.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_can.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_cec.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_comp.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_crc.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_crs.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_dac.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_dbgmcu.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_dma.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_exti.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_flash.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_gpio.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_i2c.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_iwdg.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_misc.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_pwr.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_rcc.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_rtc.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_spi.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_syscfg.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_tim.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_usart.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\stm32f0xx_wwdg.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\system_stm32f0xx.o"
+#        "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Obj\usart.o"
+#        --no_out_extension -o "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\Exe\CapSensor.out"
+#        --map "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\Debug\List\CapSensor.map"
+#        --config "F:\信为产品\10 - SFC-A
+#        油液传感器\SCap_Car(F3协议)\Project\CapSensor.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'3000 { ro section .intvec };
+"P1":  place in [from 0x800'3000 to 0x800'ffff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 1K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'3fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc0
+  .intvec            const     0x800'3000    0xc0  cstartup.o [1]
+                             - 0x800'30c0    0xc0
+
+"P1":                                      0x82f9
+  .text              ro code   0x800'30c0  0x1c94  modbus.o [1]
+  .text              ro code   0x800'4d54   0x2bc  SoftwareIIC.o [1]
+  .text              ro code   0x800'5010   0x260  modbus_ascii.o [1]
+  .text              ro code   0x800'5270    0xb0  FltMul.o [3]
+  .text              ro code   0x800'5320    0x26  FltToU32.o [3]
+  .text              ro code   0x800'5348    0x32  FltToDbl.o [3]
+  .text              ro code   0x800'537a   0x1b4  DblAddSub.o [3]
+  .text              ro code   0x800'552e   0x184  DblMul.o [3]
+  .text              ro code   0x800'56b4    0x52  DblToI32.o [3]
+  .text              ro code   0x800'5706     0x8  abs.o [2]
+  .text              ro code   0x800'5710    0x36  IxxToFlt.o [3]
+  .text              ro code   0x800'5746    0xaa  FltDiv.o [3]
+  .text              ro code   0x800'57f0    0x26  FltCmpLe.o [3]
+  .text              ro code   0x800'5818    0xe0  Capacitive.o [1]
+  .text              ro code   0x800'58f8   0x704  AT24cxx.o [1]
+  .text              ro code   0x800'5ffc   0x1e0  algorithm.o [1]
+  .text              ro code   0x800'61dc    0x3a  FltToS32.o [3]
+  .text              ro code   0x800'6216    0xbe  DA.o [1]
+  .text              ro code   0x800'62d4   0x120  FltAddSub.o [3]
+  .text              ro code   0x800'63f4   0x27c  usart.o [1]
+  .text              ro code   0x800'6670    0x58  os_time.o [1]
+  .text              ro code   0x800'66c8   0x964  os_task.o [1]
+  .text              ro code   0x800'702c   0x1d4  stm32f0xx_rcc.o [1]
+  .text              ro code   0x800'7200    0xd0  stm32f0xx_gpio.o [1]
+  .text              ro code   0x800'72d0    0x84  led.o [1]
+  .text              ro code   0x800'7354   0x420  os_tmr.o [1]
+  CODE               ro code   0x800'7774    0x1e  cpu_a.o [1]
+  .text              ro code   0x800'7794   0x8e2  os_core.o [1]
+  .text              ro code   0x800'8076    0x6a  I64DivMod.o [4]
+  .text              ro code   0x800'80e0    0xb0  stm32f0xx_dac.o [1]
+  .text              ro code   0x800'8190   0x1ee  stm32f0xx_usart.o [1]
+  .text              ro code   0x800'837e    0x16  nvic.o [1]
+  .text              ro code   0x800'8394   0x18e  bsp_int.o [1]
+  .text              ro code   0x800'8524   0x198  os_cpu_c.o [1]
+  .text              ro code   0x800'86bc   0x360  os_int.o [1]
+  .text              ro code   0x800'8a1c   0x158  os_msg.o [1]
+  .text              ro code   0x800'8b74    0x78  os_prio.o [1]
+  .text              ro code   0x800'8bec   0x39c  os_tick.o [1]
+  .text              ro code   0x800'8f88    0xe0  I32DivModFast.o [4]
+  .text              ro code   0x800'9068   0x178  os_flag.o [1]
+  .text              ro code   0x800'91e0    0x18  os_mem.o [1]
+  .text              ro code   0x800'91f8    0x18  os_mutex.o [1]
+  .text              ro code   0x800'9210    0xe8  os_q.o [1]
+  .text              ro code   0x800'92f8    0xc4  os_sem.o [1]
+  .text              ro code   0x800'93bc     0x2  os_dbg.o [1]
+  .text              ro code   0x800'93be     0x2  os_cfg_app.o [1]
+  CODE               ro code   0x800'93c0    0x9c  os_cpu_a.o [1]
+  .text              ro code   0x800'945c     0x2  I64DivZer.o [4]
+  .text              ro code   0x800'9460    0x58  stm32f0xx_misc.o [1]
+  .text              ro code   0x800'94b8   0x17c  cpu_core.o [1]
+  .text              ro code   0x800'9634     0x2  IntDivZer.o [4]
+  .text              ro code   0x800'9638    0x5e  lib_mem.o [1]
+  .text              ro code   0x800'9698   0x12c  bsp.o [1]
+  .text              ro code   0x800'97c4    0x80  stm32f0xx_exti.o [1]
+  .text              ro code   0x800'9844    0x2c  stm32f0xx_pwr.o [1]
+  .text              ro code   0x800'9870   0x834  PCap.o [1]
+  .text              ro code   0x800'a0a4   0x190  stm32f0xx_tim.o [1]
+  .text              ro code   0x800'a234   0xbf0  Filter.o [1]
+  .text              ro code   0x800'ae24    0x28  FltCmpGe.o [3]
+  .text              ro code   0x800'ae4c    0x5c  ABImemcpy.o [4]
+  .text              ro code   0x800'aea8    0x20  IxxToDbl.o [3]
+  .text              ro code   0x800'aec8   0x204  main.o [1]
+  .text              ro code   0x800'b0cc    0x14  stm32f0xx_syscfg.o [1]
+  .text              ro code   0x800'b0e0    0xb0  system_stm32f0xx.o [1]
+  .text              ro code   0x800'b190    0x2c  stm32f0xx_flash.o [1]
+  .rodata            const     0x800'b1bc    0x64  os_cfg_app.o [1]
+  .rodata            const     0x800'b220    0x58  AT24cxx.o [1]
+  .text              ro code   0x800'b278    0x3c  zero_init3.o [4]
+  .text              ro code   0x800'b2b4    0x3c  packbits_init_single.o [4]
+  .text              ro code   0x800'b2f0    0x28  data_init.o [4]
+  .iar.init_table    const     0x800'b318    0x20  - Linker created -
+  .text              ro code   0x800'b338    0x1e  cmain.o [4]
+  .text              ro code   0x800'b356     0x4  low_level_init.o [2]
+  .text              ro code   0x800'b35a     0x8  exit.o [2]
+  .text              ro code   0x800'b364     0xa  cexit.o [4]
+  .text              ro code   0x800'b370    0x14  exit.o [5]
+  .text              ro code   0x800'b384     0xc  cstartup_M.o [4]
+  .text              ro code   0x800'b390     0x8  cstartup.o [1]
+  .rodata            const     0x800'b398     0x0  zero_init3.o [4]
+  .rodata            const     0x800'b398     0x0  packbits_init_single.o [4]
+  Initializer bytes  const     0x800'b398    0x21  <for P2-1>
+                             - 0x800'b3b9  0x82f9
+
+Absolute sections:                           0xc0
+  .noinit            uninit   0x2000'0000    0xc0  main.o [1]
+                            - 0x2000'00c0    0xc0
+
+"P2", part 1 of 3:                          0x152
+  P2-1                        0x2000'00c0   0x152  <Init block>
+    .data            inited   0x2000'00c0   0x138  Filter.o [1]
+    .data            inited   0x2000'01f8    0x10  stm32f0xx_rcc.o [1]
+    .data            inited   0x2000'0208     0xa  Filter.o [1]
+                            - 0x2000'0212   0x152
+
+"P2", part 2 of 3:                         0x265c
+  .bss               zero     0x2000'0214   0x640  os_cfg_app.o [1]
+  .bss               zero     0x2000'0854   0x580  main.o [1]
+  .bss               zero     0x2000'0dd4   0x44c  AT24cxx.o [1]
+  .bss               zero     0x2000'1220   0x200  os_cfg_app.o [1]
+  .bss               zero     0x2000'1420   0x200  os_cfg_app.o [1]
+  .bss               zero     0x2000'1620   0x1e8  AT24cxx.o [1]
+  .bss               zero     0x2000'1808   0x1c0  main.o [1]
+  .bss               zero     0x2000'19c8   0x140  os_cfg_app.o [1]
+  .bss               zero     0x2000'1b08   0x100  os_cfg_app.o [1]
+  .bss               zero     0x2000'1c08   0x100  os_cfg_app.o [1]
+  .bss               zero     0x2000'1d08   0x100  os_cfg_app.o [1]
+  .bss               zero     0x2000'1e08    0xf0  Filter.o [1]
+  .bss               zero     0x2000'1ef8    0xd4  modbus_ascii.o [1]
+  .bss               zero     0x2000'1fcc    0xd4  usart.o [1]
+  .bss               zero     0x2000'20a0    0xd4  usart.o [1]
+  .bss               zero     0x2000'2174    0xc0  os_var.o [1]
+  .bss               zero     0x2000'2234    0xc0  os_var.o [1]
+  .bss               zero     0x2000'22f4    0xc0  os_var.o [1]
+  .bss               zero     0x2000'23b4    0xc0  os_var.o [1]
+  .bss               zero     0x2000'2474    0xc0  os_var.o [1]
+  .bss               zero     0x2000'2534    0x88  os_cfg_app.o [1]
+  .bss               zero     0x2000'25bc    0x80  bsp_int.o [1]
+  .bss               zero     0x2000'263c    0x50  modbus.o [1]
+  .bss               zero     0x2000'268c    0x38  os_cfg_app.o [1]
+  .bss               zero     0x2000'26c4    0x34  led.o [1]
+  .bss               zero     0x2000'26f8    0x34  led.o [1]
+  .bss               zero     0x2000'272c    0x30  Filter.o [1]
+  .bss               zero     0x2000'275c    0x20  AT24cxx.o [1]
+  .bss               zero     0x2000'277c    0x18  modbus.o [1]
+  .bss               zero     0x2000'2794    0x10  cpu_core.o [1]
+  .bss               zero     0x2000'27a4     0xc  os_var.o [1]
+  .bss               zero     0x2000'27b0     0x8  DA.o [1]
+  .bss               zero     0x2000'27b8     0x8  DA.o [1]
+  .bss               zero     0x2000'27c0     0x5  usart.o [1]
+  .bss               zero     0x2000'27c5     0x2  modbus.o [1]
+  .bss               zero     0x2000'27c7     0x1  AT24cxx.o [1]
+  .bss               zero     0x2000'27c8     0x4  cpu_core.o [1]
+  .bss               zero     0x2000'27cc     0x4  led.o [1]
+  .bss               zero     0x2000'27d0     0x4  os_cpu_c.o [1]
+  .bss               zero     0x2000'27d4     0x4  os_prio.o [1]
+  .bss               zero     0x2000'27d8     0x4  os_var.o [1]
+  .bss               zero     0x2000'27dc     0x4  os_var.o [1]
+  .bss               zero     0x2000'27e0     0x4  os_var.o [1]
+  .bss               zero     0x2000'27e4     0x4  os_var.o [1]
+  .bss               zero     0x2000'27e8     0x4  os_var.o [1]
+  .bss               zero     0x2000'27ec     0x4  os_var.o [1]
+  .bss               zero     0x2000'27f0     0x4  os_var.o [1]
+  .bss               zero     0x2000'27f4     0x4  os_var.o [1]
+  .bss               zero     0x2000'27f8     0x4  os_var.o [1]
+  .bss               zero     0x2000'27fc     0x4  os_var.o [1]
+  .bss               zero     0x2000'2800     0x4  os_var.o [1]
+  .bss               zero     0x2000'2804     0x4  os_var.o [1]
+  .bss               zero     0x2000'2808     0x4  os_var.o [1]
+  .bss               zero     0x2000'280c     0x4  os_var.o [1]
+  .bss               zero     0x2000'2810     0x4  os_var.o [1]
+  .bss               zero     0x2000'2814     0x4  os_var.o [1]
+  .bss               zero     0x2000'2818     0x4  os_var.o [1]
+  .bss               zero     0x2000'281c     0x4  os_var.o [1]
+  .bss               zero     0x2000'2820     0x4  os_var.o [1]
+  .bss               zero     0x2000'2824     0x4  os_var.o [1]
+  .bss               zero     0x2000'2828     0x4  os_var.o [1]
+  .bss               zero     0x2000'282c     0x4  os_var.o [1]
+  .bss               zero     0x2000'2830     0x4  os_var.o [1]
+  .bss               zero     0x2000'2834     0x4  os_var.o [1]
+  .bss               zero     0x2000'2838     0x4  os_var.o [1]
+  .bss               zero     0x2000'283c     0x4  os_var.o [1]
+  .bss               zero     0x2000'2840     0x4  os_var.o [1]
+  .bss               zero     0x2000'2844     0x4  os_var.o [1]
+  .bss               zero     0x2000'2848     0x4  PCap.o [1]
+  .bss               zero     0x2000'284c     0x4  PCap.o [1]
+  .bss               zero     0x2000'2850     0x2  os_var.o [1]
+  .bss               zero     0x2000'2852     0x2  os_var.o [1]
+  .bss               zero     0x2000'2854     0x2  os_var.o [1]
+  .bss               zero     0x2000'2856     0x2  os_var.o [1]
+  .bss               zero     0x2000'2858     0x2  os_var.o [1]
+  .bss               zero     0x2000'285a     0x2  os_var.o [1]
+  .bss               zero     0x2000'285c     0x2  os_var.o [1]
+  .bss               zero     0x2000'285e     0x2  os_var.o [1]
+  .bss               zero     0x2000'2860     0x2  os_var.o [1]
+  .bss               zero     0x2000'2862     0x2  os_var.o [1]
+  .bss               zero     0x2000'2864     0x1  Filter.o [1]
+  .bss               zero     0x2000'2865     0x1  Filter.o [1]
+  .bss               zero     0x2000'2866     0x1  modbus_ascii.o [1]
+  .bss               zero     0x2000'2867     0x1  os_var.o [1]
+  .bss               zero     0x2000'2868     0x1  os_var.o [1]
+  .bss               zero     0x2000'2869     0x1  os_var.o [1]
+  .bss               zero     0x2000'286a     0x1  os_var.o [1]
+  .bss               zero     0x2000'286b     0x1  os_var.o [1]
+  .bss               zero     0x2000'286c     0x1  os_var.o [1]
+  .bss               zero     0x2000'286d     0x1  os_var.o [1]
+  .bss               zero     0x2000'286e     0x1  os_var.o [1]
+  .bss               zero     0x2000'286f     0x1  PCap.o [1]
+                            - 0x2000'2870  0x265c
+
+"P2", part 3 of 3:                          0x800
+  CSTACK                      0x2000'2870   0x800  <Block>
+    CSTACK           uninit   0x2000'2870   0x800  <Block tail>
+                            - 0x2000'3070   0x800
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'b3b9   0x800'ffff  0x4c47
+  0x2000'0212  0x2000'0213     0x2
+  0x2000'3070  0x2000'3fff   0xf90
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x265c:
+          0x2000'0214  0x265c
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x21 (9% of destination):
+           0x800'b398    0x21
+    1 destination range, total size 0x152:
+          0x2000'00c0   0x152
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data  rw data
+                                                        (abs)
+    ------                  -------  -------  -------  -------
+command line/config:
+    ----------------------------------------------------------
+    Total:
+
+F:\信为产品\10 - SFC-A 油液传感器\SCap_Car(F3协议)\Project\Debug\Obj: [1]
+    AT24cxx.o                 1 796       88    1 621
+    Capacitive.o                224
+    DA.o                        190                16
+    Filter.o                  3 056       31      612
+    PCap.o                    2 100                 9
+    SoftwareIIC.o               700
+    algorithm.o                 480
+    bsp.o                       300
+    bsp_int.o                   398               128
+    cpu_a.o                      30
+    cpu_core.o                  380                20
+    cstartup.o                    8      192
+    led.o                       132               108
+    lib_mem.o                    94
+    main.o                      516             1 856      192
+    modbus.o                  7 316               106
+    modbus_ascii.o              608               213
+    nvic.o                       22
+    os_cfg_app.o                  2      100    3 904
+    os_core.o                 2 274
+    os_cpu_a.o                  156
+    os_cpu_c.o                  408                 4
+    os_dbg.o                      2
+    os_flag.o                   376
+    os_int.o                    864
+    os_mem.o                     24
+    os_msg.o                    344
+    os_mutex.o                   24
+    os_prio.o                   120                 4
+    os_q.o                      232
+    os_sem.o                    196
+    os_task.o                 2 404
+    os_tick.o                   924
+    os_time.o                    88
+    os_tmr.o                  1 056
+    os_var.o                                    1 112
+    stm32f0xx_dac.o             176
+    stm32f0xx_exti.o            128
+    stm32f0xx_flash.o            44
+    stm32f0xx_gpio.o            208
+    stm32f0xx_misc.o             88
+    stm32f0xx_pwr.o              44
+    stm32f0xx_rcc.o             468        2       16
+    stm32f0xx_syscfg.o           20
+    stm32f0xx_tim.o             400
+    stm32f0xx_usart.o           494
+    system_stm32f0xx.o          176
+    usart.o                     636               429
+    ----------------------------------------------------------
+    Total:                   30 726      413   10 158      192
+
+dl6M_tln.a: [2]
+    abs.o                         8
+    exit.o                        8
+    low_level_init.o              4
+    ----------------------------------------------------------
+    Total:                       20
+
+m6M_tl.a: [3]
+    DblAddSub.o                 436
+    DblMul.o                    388
+    DblToI32.o                   82
+    FltAddSub.o                 288
+    FltCmpGe.o                   40
+    FltCmpLe.o                   38
+    FltDiv.o                    170
+    FltMul.o                    176
+    FltToDbl.o                   50
+    FltToS32.o                   58
+    FltToU32.o                   38
+    IxxToDbl.o                   32
+    IxxToFlt.o                   54
+    ----------------------------------------------------------
+    Total:                    1 850
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                  92
+    I32DivModFast.o             224
+    I64DivMod.o                 106
+    I64DivZer.o                   2
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       60
+    zero_init3.o                 60
+    ----------------------------------------------------------
+    Total:                      638
+
+shb_l.a: [5]
+    exit.o                       20
+    ----------------------------------------------------------
+    Total:                       20
+
+    Gaps                         22
+    Linker created                        32    2 048
+--------------------------------------------------------------
+    Grand Total:             33 276      445   12 206      192
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'b318          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'b338          --   Gb  - Linker created -
+?main                    0x800'b339         Code  Gb  cmain.o [4]
+APBAHBPrescTable        0x2000'01f8   0x10  Data  Lc  stm32f0xx_rcc.o [1]
+APP_MB_Task              0x800'4cb5   0x70  Code  Gb  modbus.o [1]
+AT24CXX_Init             0x800'58f9    0x8  Code  Gb  AT24cxx.o [1]
+AddState                0x2000'00cb    0x1  Data  Gb  Filter.o [1]
+Add_Finish_Flag         0x2000'00c2    0x1  Data  Gb  Filter.o [1]
+Add_Sub_Cnt             0x2000'00d4    0x2  Data  Gb  Filter.o [1]
+Add_Sub_Flag            0x2000'00c0    0x1  Data  Gb  Filter.o [1]
+Add_Sub_Start_Flag      0x2000'00c4    0x1  Data  Gb  Filter.o [1]
+AppFilterStk            0x2000'0b54  0x280  Data  Lc  main.o [1]
+AppFilterTCB            0x2000'0914   0xc0  Data  Gb  main.o [1]
+AppTaskMBStk            0x2000'09d4  0x180  Data  Lc  main.o [1]
+AppTaskMBTCB            0x2000'0854   0xc0  Data  Gb  main.o [1]
+AppTaskStartStk         0x2000'18c8  0x100  Data  Lc  main.o [1]
+AppTaskStartTCB         0x2000'1808   0xc0  Data  Lc  main.o [1]
+App_CreateObject         0x800'af89   0x40  Code  Lc  main.o [1]
+App_CreateTask           0x800'afc9   0x6e  Code  Lc  main.o [1]
+App_Fault_ISR            0x800'b393    0x2  Code  Lc  cstartup.o [1]
+App_Filter_Task          0x800'ac69  0x146  Code  Gb  Filter.o [1]
+App_NMI_ISR              0x800'b391    0x2  Code  Lc  cstartup.o [1]
+App_Reserved_ISR         0x800'b397    0x2  Code  Lc  cstartup.o [1]
+App_Spurious_ISR         0x800'b395    0x2  Code  Lc  cstartup.o [1]
+App_StartTask            0x800'af5b   0x2c  Code  Lc  main.o [1]
+ArrToHex                 0x800'60ad   0x16  Code  Gb  algorithm.o [1]
+BSP_CPU_ClkFreq          0x800'979d   0x10  Code  Gb  bsp.o [1]
+BSP_Init                 0x800'977d   0x20  Code  Gb  bsp.o [1]
+BSP_IntDisAll            0x800'8395    0x8  Code  Gb  bsp_int.o [1]
+BSP_IntHandler           0x800'84ef   0x2a  Code  Lc  bsp_int.o [1]
+BSP_IntHandlerADC_COMP   0x800'8445    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerCEC        0x800'84e5    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA_CH1    0x800'8427    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA_CH2_3
+                         0x800'8431    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDMA_CH4_5
+                         0x800'843b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerDummy      0x800'8521    0x2  Code  Lc  bsp_int.o [1]
+BSP_IntHandlerEXTI0_1    0x800'83ff    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerEXTI2_3    0x800'8409    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerEXTI4_15   0x800'8413    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerFLASH      0x800'83eb    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerI2C1       0x800'84b3    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerI2C2       0x800'84bd    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerPVD        0x800'83d7    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerRCC        0x800'83f5    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerRTC        0x800'83e1    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerSPI1       0x800'84c7    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerSPI2       0x800'84d1    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM14      0x800'848b    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM15      0x800'8495    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM16      0x800'849f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM17      0x800'84a9    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM1_BRK_UP_TRG_COM
+                         0x800'844f    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM1_CC    0x800'8459    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM2       0x800'8463    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM3       0x800'846d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM6_DAC   0x800'8477    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTIM7       0x800'8481    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerTSC        0x800'841d    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerUSART2     0x800'84db    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntHandlerWWDG       0x800'83cd    0xa  Code  Gb  bsp_int.o [1]
+BSP_IntInit              0x800'83b7   0x16  Code  Gb  bsp_int.o [1]
+BSP_IntVectSet           0x800'839d   0x1a  Code  Gb  bsp_int.o [1]
+BSP_IntVectTbl          0x2000'25bc   0x80  Data  Lc  bsp_int.o [1]
+CALIB_Data              0x2000'1674    0x2  Data  Gb  AT24cxx.o [1]
+CALIB_Table             0x2000'1678  0x190  Data  Gb  AT24cxx.o [1]
+CPU_CntLeadZeros         0x800'94dd    0x8  Code  Gb  cpu_core.o [1]
+CPU_CntLeadZeros32       0x800'94e5   0x30  Code  Gb  cpu_core.o [1]
+CPU_CntLeadZerosTbl      0x800'9534  0x100  Data  Lc  cpu_core.o [1]
+CPU_Init                 0x800'94b9    0xc  Code  Gb  cpu_core.o [1]
+CPU_IntDis               0x800'7775         Code  Gb  cpu_a.o [1]
+CPU_IntEn                0x800'7779         Code  Gb  cpu_a.o [1]
+CPU_Name                0x2000'2794   0x10  Data  Gb  cpu_core.o [1]
+CPU_NameClr              0x800'94c5   0x18  Code  Gb  cpu_core.o [1]
+CPU_NameInit             0x800'9515    0x8  Code  Lc  cpu_core.o [1]
+CPU_SR_Restore           0x800'7785         Code  Gb  cpu_a.o [1]
+CPU_SR_Save              0x800'777d         Code  Gb  cpu_a.o [1]
+CPU_TS_Init              0x800'951d    0xe  Code  Lc  cpu_core.o [1]
+CPU_TS_TmrFreq_Hz       0x2000'27c8    0x4  Data  Gb  cpu_core.o [1]
+CPU_TS_TmrInit           0x800'97ad    0x2  Code  Gb  bsp.o [1]
+CPU_WaitForExcept        0x800'778f         Code  Gb  cpu_a.o [1]
+CPU_WaitForInt           0x800'778b         Code  Gb  cpu_a.o [1]
+CSTACK$$Base            0x2000'2870          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'3070          --   Gb  - Linker created -
+CalcuFloaterDACode       0x800'a3e3   0x54  Code  Gb  Filter.o [1]
+Calib_Param             0x2000'275c   0x20  Data  Gb  AT24cxx.o [1]
+Calibrate_Flag          0x2000'2864    0x1  Data  Gb  Filter.o [1]
+CapCalibrate             0x800'5819   0xe0  Code  Gb  Capacitive.o [1]
+Capture_TimerInit        0x800'a3db    0x8  Code  Gb  Filter.o [1]
+Check_Calib_Backup       0x800'5b99   0xae  Code  Gb  AT24cxx.o [1]
+Check_User_Backup        0x800'5ae1   0xb2  Code  Gb  AT24cxx.o [1]
+CopyVectorToRamAndRemap
+                         0x800'aec9   0x2a  Code  Gb  main.o [1]
+Cur_Param               0x2000'11c8   0x58  Data  Gb  AT24cxx.o [1]
+Curr_LiquidHeight       0x2000'00f4    0x4  Data  Gb  Filter.o [1]
+DA2_Write                0x800'62b7   0x1e  Code  Gb  DA.o [1]
+DAC_Cmd                  0x800'811d   0x18  Code  Gb  stm32f0xx_dac.o [1]
+DAC_DeInit               0x800'80e1   0x18  Code  Gb  stm32f0xx_dac.o [1]
+DAC_Init                 0x800'80f9   0x24  Code  Gb  stm32f0xx_dac.o [1]
+DAC_SetChannel1Data      0x800'814f   0x1a  Code  Gb  stm32f0xx_dac.o [1]
+DAC_SetChannel2Data      0x800'8169   0x1a  Code  Gb  stm32f0xx_dac.o [1]
+DAC_SoftwareTriggerCmd   0x800'8135   0x1a  Code  Gb  stm32f0xx_dac.o [1]
+DAOilDebug              0x2000'27b0    0x8  Data  Gb  DA.o [1]
+DAOutDebug              0x2000'27b8    0x8  Data  Gb  DA.o [1]
+DAOutPutStabilised       0x800'a47d   0x9c  Code  Gb  Filter.o [1]
+DAOutPutStabilised::ucDirBak
+                        0x2000'0208    0x1  Data  Lc  Filter.o [1]
+DAOutPutStabilised::usBaseRate
+                        0x2000'020a    0x2  Data  Lc  Filter.o [1]
+DAOutPutStabilised::usDABak
+                        0x2000'020c    0x2  Data  Lc  Filter.o [1]
+DAOutPutStabilised::usLargeThan1PercCnt
+                        0x2000'0210    0x2  Data  Lc  Filter.o [1]
+DAOutPutStabilised::usLargeThan5PercCnt
+                        0x2000'020e    0x2  Data  Lc  Filter.o [1]
+DA_Handle                0x800'a9d9   0x96  Code  Gb  Filter.o [1]
+DA_Init                  0x800'6217   0x82  Code  Gb  DA.o [1]
+DA_Write                 0x800'6299   0x1e  Code  Gb  DA.o [1]
+Delay_Ms                 0x800'4d55    0xe  Code  Gb  SoftwareIIC.o [1]
+Delay_Us                 0x800'4d63    0xc  Code  Gb  SoftwareIIC.o [1]
+DoCnt                   0x2000'00c6    0x1  Data  Gb  Filter.o [1]
+EEProm_Init              0x800'5aa9    0x8  Code  Gb  AT24cxx.o [1]
+EXTI_ClearITPendingBit   0x800'9837    0x6  Code  Gb  stm32f0xx_exti.o [1]
+EXTI_Init                0x800'97c5   0x72  Code  Gb  stm32f0xx_exti.o [1]
+FLASH_PrefetchBufferCmd
+                         0x800'b19f   0x18  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_SetLatency         0x800'b191    0xe  Code  Gb  stm32f0xx_flash.o [1]
+FinishTimeCnt           0x2000'00c9    0x1  Data  Gb  Filter.o [1]
+GPIO_Init                0x800'7201   0x88  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_PinAFConfig         0x800'72ab   0x26  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_ReadInputDataBit    0x800'7289    0xe  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_ResetBits           0x800'729b    0x4  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_SetBits             0x800'7297    0x4  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_WriteBit            0x800'729f    0xc  Code  Gb  stm32f0xx_gpio.o [1]
+GetAverage               0x800'6057   0x3a  Code  Gb  algorithm.o [1]
+GetDelExtremeAndAverage
+                         0x800'6091   0x1c  Code  Gb  algorithm.o [1]
+Get_EverySecPcap         0x800'a531   0xe6  Code  Gb  Filter.o [1]
+Get_Filter_PCap          0x800'aa79  0x1c6  Code  Gb  Filter.o [1]
+Get_TankOil              0x800'49d5  0x162  Code  Gb  modbus.o [1]
+HexToFloat               0x800'60c3   0x16  Code  Gb  algorithm.o [1]
+I2C1_ReadByte            0x800'5901   0x80  Code  Gb  AT24cxx.o [1]
+I2C1_ReadNBytes          0x800'5a03   0x26  Code  Gb  AT24cxx.o [1]
+I2C1_WNBytesMul3T        0x800'5a59   0x50  Code  Gb  AT24cxx.o [1]
+I2C1_WriteByte           0x800'5981   0x82  Code  Gb  AT24cxx.o [1]
+I2C1_WriteNBytes         0x800'5a29   0x30  Code  Gb  AT24cxx.o [1]
+IIC_Ack                  0x800'4ea3   0x4a  Code  Gb  SoftwareIIC.o [1]
+IIC_Init                 0x800'4d6f   0x36  Code  Gb  SoftwareIIC.o [1]
+IIC_NAck                 0x800'4eed   0x4a  Code  Gb  SoftwareIIC.o [1]
+IIC_Read_Byte            0x800'4fa1   0x5e  Code  Gb  SoftwareIIC.o [1]
+IIC_Send_Byte            0x800'4f37   0x6a  Code  Gb  SoftwareIIC.o [1]
+IIC_Start                0x800'4da5   0x60  Code  Gb  SoftwareIIC.o [1]
+IIC_Stop                 0x800'4e05   0x4a  Code  Gb  SoftwareIIC.o [1]
+IIC_Wait_Ack             0x800'4e4f   0x54  Code  Gb  SoftwareIIC.o [1]
+InitArrayFlag           0x2000'00c1    0x1  Data  Gb  Filter.o [1]
+IsNeetResetPcap          0x800'a437   0x3c  Code  Gb  Filter.o [1]
+IsNeetResetPcap::ucRawCapEqualCnt
+                        0x2000'2865    0x1  Data  Lc  Filter.o [1]
+Judge_Add_Sub_Oil        0x800'a645  0x388  Code  Gb  Filter.o [1]
+LED_Close                0x800'7303    0xc  Code  Gb  led.o [1]
+LED_Double_Light         0x800'7317   0x34  Code  Gb  led.o [1]
+LED_Init                 0x800'72d1   0x26  Code  Gb  led.o [1]
+LED_Open                 0x800'72f7    0xc  Code  Gb  led.o [1]
+LED_Short_Light          0x800'730f    0x8  Code  Gb  led.o [1]
+LFilCnt                 0x2000'00cd    0x1  Data  Gb  Filter.o [1]
+Last_LiquidHeight       0x2000'00f8    0x4  Data  Gb  Filter.o [1]
+MBASCII_AutoUpLoadFrame
+                         0x800'4b59  0x152  Code  Gb  modbus.o [1]
+MBASCII_Fun03            0x800'31d5  0x1d6  Code  Gb  modbus.o [1]
+MBASCII_Fun04            0x800'33c5  0x1d4  Code  Gb  modbus.o [1]
+MBASCII_Fun05            0x800'35bd  0x158  Code  Gb  modbus.o [1]
+MBASCII_Fun10            0x800'3949  0x498  Code  Gb  modbus.o [1]
+MBASCII_Fun25            0x800'3e19  0x18e  Code  Gb  modbus.o [1]
+MBASCII_Fun26            0x800'3fc9  0x170  Code  Gb  modbus.o [1]
+MBASCII_Fun27            0x800'4165  0x2a2  Code  Gb  modbus.o [1]
+MBASCII_Fun2A            0x800'4425  0x14a  Code  Gb  modbus.o [1]
+MBASCII_Fun2B            0x800'4585  0x2a2  Code  Gb  modbus.o [1]
+MBASCII_Fun41            0x800'4839   0xa8  Code  Gb  modbus.o [1]
+MBASCII_Function         0x800'48e5   0xde  Code  Gb  modbus.o [1]
+MBASCII_GetFunCode       0x800'30d7    0x4  Code  Gb  modbus.o [1]
+MBASCII_GetSlaveAddr     0x800'30d3    0x4  Code  Gb  modbus.o [1]
+MBASCII_SendErr          0x800'3105   0x1c  Code  Gb  modbus.o [1]
+MBASCII_SendMsg          0x800'30db   0x2a  Code  Gb  modbus.o [1]
+MBASCII_SendMsg_NoLimit
+                         0x800'3121   0x20  Code  Gb  modbus.o [1]
+MODBUS_ASCII_AsciiPacketToRtuPacket
+                         0x800'50a3   0x2c  Code  Gb  modbus_ascii.o [1]
+MODBUS_ASCII_AsciiToHex
+                         0x800'503b   0x30  Code  Gb  modbus_ascii.o [1]
+MODBUS_ASCII_CheckAscii
+                         0x800'5157   0x38  Code  Gb  modbus_ascii.o [1]
+MODBUS_ASCII_GetLrc      0x800'506b   0x38  Code  Gb  modbus_ascii.o [1]
+MODBUS_ASCII_HandlRevData
+                         0x800'50fb   0x5c  Code  Gb  modbus_ascii.o [1]
+MODBUS_ASCII_HexToAscii
+                         0x800'5011   0x2a  Code  Gb  modbus_ascii.o [1]
+MODBUS_ASCII_RecvData    0x800'518f   0x6e  Code  Gb  modbus_ascii.o [1]
+MODBUS_ASCII_RtuPacketToAsciiPacket
+                         0x800'50cf   0x2c  Code  Gb  modbus_ascii.o [1]
+MODBUS_ASCII_SendData    0x800'51fd   0x60  Code  Gb  modbus_ascii.o [1]
+MaxAd                   0x2000'00e8    0x4  Data  Gb  Filter.o [1]
+Mem_Clr                  0x800'9639    0xc  Code  Gb  lib_mem.o [1]
+Mem_Set                  0x800'9645   0x52  Code  Gb  lib_mem.o [1]
+MinAd                   0x2000'00e4    0x4  Data  Gb  Filter.o [1]
+NVIC_Init                0x800'9461   0x4c  Code  Gb  stm32f0xx_misc.o [1]
+NVIC_UARTConfiguration   0x800'837f   0x16  Code  Gb  nvic.o [1]
+OSCfg_ISRStk            0x2000'1220  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStkBasePtr      0x800'b1dc    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_ISRStkSize         0x800'b1e0    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStk       0x2000'1b08  0x100  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkBasePtr
+                         0x800'b1bc    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkLimit   0x800'b1c0    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IdleTaskStkSize    0x800'b1c4    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_Init               0x800'93bf    0x2  Code  Gb  os_cfg_app.o [1]
+OSCfg_IntQ              0x2000'19c8  0x140  Data  Gb  os_cfg_app.o [1]
+OSCfg_IntQBasePtr        0x800'b1c8    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IntQSize           0x800'b1cc    0x2  Data  Gb  os_cfg_app.o [1]
+OSCfg_IntQTaskStk       0x2000'1c08  0x100  Data  Gb  os_cfg_app.o [1]
+OSCfg_IntQTaskStkBasePtr
+                         0x800'b1d0    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IntQTaskStkLimit   0x800'b1d4    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_IntQTaskStkSize    0x800'b1d8    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_MsgPool           0x2000'0214  0x640  Data  Gb  os_cfg_app.o [1]
+OSCfg_MsgPoolBasePtr     0x800'b1e8    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_MsgPoolSize        0x800'b1e4    0x2  Data  Gb  os_cfg_app.o [1]
+OSCfg_StkSizeMin         0x800'b1ec    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickRate_Hz        0x800'b1f0    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskPrio       0x800'b1f4    0x1  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStk       0x2000'1420  0x200  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkBasePtr
+                         0x800'b1f8    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkLimit   0x800'b1fc    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickTaskStkSize    0x800'b200    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickWheel         0x2000'2534   0x88  Data  Gb  os_cfg_app.o [1]
+OSCfg_TickWheelSize      0x800'b204    0x2  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskPrio        0x800'b208    0x1  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskRate_Hz     0x800'b20c    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStk        0x2000'1d08  0x100  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkBasePtr
+                         0x800'b210    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkLimit    0x800'b214    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrTaskStkSize     0x800'b218    0x4  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrWheel          0x2000'268c   0x38  Data  Gb  os_cfg_app.o [1]
+OSCfg_TmrWheelSize       0x800'b21c    0x2  Data  Gb  os_cfg_app.o [1]
+OSCtxSw                  0x800'93df         Code  Gb  os_cpu_a.o [1]
+OSFlagDbgListPtr        0x2000'2804    0x4  Data  Gb  os_var.o [1]
+OSFlagQty               0x2000'2856    0x2  Data  Gb  os_var.o [1]
+OSIdleTaskCtr           0x2000'27f4    0x4  Data  Gb  os_var.o [1]
+OSIdleTaskHook           0x800'8525   0x10  Code  Gb  os_cpu_c.o [1]
+OSIdleTaskTCB           0x2000'2174   0xc0  Data  Gb  os_var.o [1]
+OSInit                   0x800'7795  0x112  Code  Gb  os_core.o [1]
+OSInitHook               0x800'8535   0x16  Code  Gb  os_cpu_c.o [1]
+OSIntCtxSw               0x800'93e7         Code  Gb  os_cpu_a.o [1]
+OSIntEnter               0x800'78a7   0x18  Code  Gb  os_core.o [1]
+OSIntExit                0x800'78bf   0x84  Code  Gb  os_core.o [1]
+OSIntNestingCtr         0x2000'2867    0x1  Data  Gb  os_var.o [1]
+OSIntQInPtr             0x2000'27f8    0x4  Data  Gb  os_var.o [1]
+OSIntQNbrEntries        0x2000'2850    0x2  Data  Gb  os_var.o [1]
+OSIntQNbrEntriesMax     0x2000'2852    0x2  Data  Gb  os_var.o [1]
+OSIntQOutPtr            0x2000'27fc    0x4  Data  Gb  os_var.o [1]
+OSIntQOvfCtr            0x2000'2854    0x2  Data  Gb  os_var.o [1]
+OSIntQTaskTCB           0x2000'2234   0xc0  Data  Gb  os_var.o [1]
+OSIntQTaskTimeMax       0x2000'2800    0x4  Data  Gb  os_var.o [1]
+OSMemDbgListPtr         0x2000'2808    0x4  Data  Gb  os_var.o [1]
+OSMemQty                0x2000'2858    0x2  Data  Gb  os_var.o [1]
+OSMsgPool               0x2000'27a4    0xc  Data  Gb  os_var.o [1]
+OSMutexDbgListPtr       0x2000'280c    0x4  Data  Gb  os_var.o [1]
+OSMutexQty              0x2000'285a    0x2  Data  Gb  os_var.o [1]
+OSPrioCur               0x2000'2869    0x1  Data  Gb  os_var.o [1]
+OSPrioHighRdy           0x2000'286a    0x1  Data  Gb  os_var.o [1]
+OSPrioSaved             0x2000'286b    0x1  Data  Gb  os_var.o [1]
+OSPrioTbl               0x2000'27d4    0x4  Data  Gb  os_prio.o [1]
+OSQDbgListPtr           0x2000'2810    0x4  Data  Gb  os_var.o [1]
+OSQQty                  0x2000'285c    0x2  Data  Gb  os_var.o [1]
+OSRdyList               0x2000'22f4   0xc0  Data  Gb  os_var.o [1]
+OSRunning               0x2000'2868    0x1  Data  Gb  os_var.o [1]
+OSSched                  0x800'7943   0x5c  Code  Gb  os_core.o [1]
+OSSchedLock              0x800'79c1   0x42  Code  Gb  os_core.o [1]
+OSSchedLockNestingCtr   0x2000'286c    0x1  Data  Gb  os_var.o [1]
+OSSchedRoundRobinDfltTimeQuanta
+                        0x2000'2814    0x4  Data  Gb  os_var.o [1]
+OSSchedRoundRobinEn     0x2000'286d    0x1  Data  Gb  os_var.o [1]
+OSSchedUnlock            0x800'7a35   0x54  Code  Gb  os_core.o [1]
+OSSemDbgListPtr         0x2000'2818    0x4  Data  Gb  os_var.o [1]
+OSSemQty                0x2000'285e    0x2  Data  Gb  os_var.o [1]
+OSStart                  0x800'7a91   0x3e  Code  Gb  os_core.o [1]
+OSStartHighRdy           0x800'93c1         Code  Gb  os_cpu_a.o [1]
+OSTCBCurPtr             0x2000'2840    0x4  Data  Gb  os_var.o [1]
+OSTCBHighRdyPtr         0x2000'2844    0x4  Data  Gb  os_var.o [1]
+OSTaskCreate             0x800'66c9  0x18e  Code  Gb  os_task.o [1]
+OSTaskCreateHook         0x800'854b   0x10  Code  Gb  os_cpu_c.o [1]
+OSTaskCtxSwCtr          0x2000'281c    0x4  Data  Gb  os_var.o [1]
+OSTaskDbgListPtr        0x2000'2820    0x4  Data  Gb  os_var.o [1]
+OSTaskDel                0x800'686d   0xfe  Code  Gb  os_task.o [1]
+OSTaskDelHook            0x800'855b   0x10  Code  Gb  os_cpu_c.o [1]
+OSTaskQty               0x2000'2860    0x2  Data  Gb  os_var.o [1]
+OSTaskRegNextAvailID    0x2000'286e    0x1  Data  Gb  os_var.o [1]
+OSTaskReturnHook         0x800'856b   0x10  Code  Gb  os_cpu_c.o [1]
+OSTaskSemPend            0x800'69b9  0x128  Code  Gb  os_task.o [1]
+OSTaskSemPost            0x800'6ae9   0x44  Code  Gb  os_task.o [1]
+OSTaskStkInit            0x800'857b   0x68  Code  Gb  os_cpu_c.o [1]
+OSTaskSwHook             0x800'85e3   0x36  Code  Gb  os_cpu_c.o [1]
+OSTickCtr               0x2000'2824    0x4  Data  Gb  os_var.o [1]
+OSTickTaskTCB           0x2000'23b4   0xc0  Data  Gb  os_var.o [1]
+OSTickTaskTimeMax       0x2000'2828    0x4  Data  Gb  os_var.o [1]
+OSTimeGet                0x800'6671   0x18  Code  Gb  os_time.o [1]
+OSTimeTick               0x800'6689   0x30  Code  Gb  os_time.o [1]
+OSTimeTickHook           0x800'8619   0x10  Code  Gb  os_cpu_c.o [1]
+OSTmrCreate              0x800'7355   0xa8  Code  Gb  os_tmr.o [1]
+OSTmrDbgListPtr         0x2000'282c    0x4  Data  Gb  os_var.o [1]
+OSTmrQty                0x2000'2862    0x2  Data  Gb  os_var.o [1]
+OSTmrStart               0x800'73fd   0x9a  Code  Gb  os_tmr.o [1]
+OSTmrTaskTCB            0x2000'2474   0xc0  Data  Gb  os_var.o [1]
+OSTmrTaskTimeMax        0x2000'2830    0x4  Data  Gb  os_var.o [1]
+OSTmrTickCtr            0x2000'2834    0x4  Data  Gb  os_var.o [1]
+OSTmrUpdateCnt          0x2000'2838    0x4  Data  Gb  os_var.o [1]
+OSTmrUpdateCtr          0x2000'283c    0x4  Data  Gb  os_var.o [1]
+OS_AppIdleTaskHookPtr   0x2000'27e4    0x4  Data  Gb  os_var.o [1]
+OS_AppStatTaskHookPtr   0x2000'27e8    0x4  Data  Gb  os_var.o [1]
+OS_AppTaskCreateHookPtr
+                        0x2000'27d8    0x4  Data  Gb  os_var.o [1]
+OS_AppTaskDelHookPtr    0x2000'27dc    0x4  Data  Gb  os_var.o [1]
+OS_AppTaskReturnHookPtr
+                        0x2000'27e0    0x4  Data  Gb  os_var.o [1]
+OS_AppTaskSwHookPtr     0x2000'27ec    0x4  Data  Gb  os_var.o [1]
+OS_AppTimeTickHookPtr   0x2000'27f0    0x4  Data  Gb  os_var.o [1]
+OS_CPU_ExceptStkBase    0x2000'27d0    0x4  Data  Gb  os_cpu_c.o [1]
+OS_CPU_PendSVHandler     0x800'93ef         Code  Gb  os_cpu_a.o [1]
+OS_CPU_SysTickHandler    0x800'8629   0x1c  Code  Gb  os_cpu_c.o [1]
+OS_CPU_SysTickInit       0x800'8645   0x22  Code  Gb  os_cpu_c.o [1]
+OS_Dbg_Init              0x800'93bd    0x2  Code  Gb  os_dbg.o [1]
+OS_FlagInit              0x800'9069    0xe  Code  Gb  os_flag.o [1]
+OS_FlagPost              0x800'9077  0x10a  Code  Gb  os_flag.o [1]
+OS_FlagTaskRdy           0x800'91a1   0x40  Code  Gb  os_flag.o [1]
+OS_IdleTask              0x800'7acf   0x18  Code  Gb  os_core.o [1]
+OS_IdleTaskInit          0x800'7ae9   0x40  Code  Gb  os_core.o [1]
+OS_IntQPost              0x800'86bd   0x9a  Code  Gb  os_int.o [1]
+OS_IntQRePost            0x800'8757   0xe6  Code  Gb  os_int.o [1]
+OS_IntQTask              0x800'883d   0x58  Code  Gb  os_int.o [1]
+OS_IntQTaskInit          0x800'88b9   0xc8  Code  Gb  os_int.o [1]
+OS_MemInit               0x800'91e1    0xe  Code  Gb  os_mem.o [1]
+OS_MsgPoolInit           0x800'8a1d   0x68  Code  Gb  os_msg.o [1]
+OS_MsgQFreeAll           0x800'8a85   0x38  Code  Gb  os_msg.o [1]
+OS_MsgQInit              0x800'8abd   0x10  Code  Gb  os_msg.o [1]
+OS_MsgQPut               0x800'8acd   0x8e  Code  Gb  os_msg.o [1]
+OS_MutexInit             0x800'91f9    0xe  Code  Gb  os_mutex.o [1]
+OS_Pend                  0x800'7b55   0x50  Code  Gb  os_core.o [1]
+OS_PendDataInit          0x800'7bb5   0x2e  Code  Gb  os_core.o [1]
+OS_PendDbgNameAdd        0x800'7be5   0x3c  Code  Gb  os_core.o [1]
+OS_PendDbgNameRemove     0x800'7c35   0x18  Code  Gb  os_core.o [1]
+OS_PendListInsertPrio    0x800'7c85   0x68  Code  Gb  os_core.o [1]
+OS_PendListRemove        0x800'7ced   0x28  Code  Gb  os_core.o [1]
+OS_PendListRemove1       0x800'7d15   0x3c  Code  Gb  os_core.o [1]
+OS_Post                  0x800'7d51   0xa8  Code  Gb  os_core.o [1]
+OS_Post1                 0x800'7df9   0x26  Code  Gb  os_core.o [1]
+OS_PrioGetHighest        0x800'8b87   0x1e  Code  Gb  os_prio.o [1]
+OS_PrioInit              0x800'8b75   0x12  Code  Gb  os_prio.o [1]
+OS_PrioInsert            0x800'8ba5   0x22  Code  Gb  os_prio.o [1]
+OS_PrioRemove            0x800'8bc7   0x22  Code  Gb  os_prio.o [1]
+OS_QInit                 0x800'9211    0xe  Code  Gb  os_q.o [1]
+OS_QPost                 0x800'9221   0xc6  Code  Gb  os_q.o [1]
+OS_RdyListInit           0x800'7e1f   0x2c  Code  Gb  os_core.o [1]
+OS_RdyListInsert         0x800'7e4b   0x28  Code  Gb  os_core.o [1]
+OS_RdyListInsertHead     0x800'7e73   0x36  Code  Gb  os_core.o [1]
+OS_RdyListInsertTail     0x800'7ea9   0x34  Code  Gb  os_core.o [1]
+OS_RdyListMoveHeadToTail
+                         0x800'7edd   0x3e  Code  Gb  os_core.o [1]
+OS_RdyListRemove         0x800'7f1b   0x58  Code  Gb  os_core.o [1]
+OS_Sched0                0x800'7f73   0x30  Code  Gb  os_core.o [1]
+OS_SchedRoundRobin       0x800'7fa3   0x5c  Code  Gb  os_core.o [1]
+OS_SemInit               0x800'92f9    0xe  Code  Gb  os_sem.o [1]
+OS_SemPost               0x800'9309   0xa4  Code  Gb  os_sem.o [1]
+OS_TaskBlock             0x800'8029   0x36  Code  Gb  os_core.o [1]
+OS_TaskDbgListAdd        0x800'6b49   0x24  Code  Gb  os_task.o [1]
+OS_TaskDbgListRemove     0x800'6b6d   0x3a  Code  Gb  os_task.o [1]
+OS_TaskInit              0x800'6ba7   0x14  Code  Gb  os_task.o [1]
+OS_TaskInitTCB           0x800'6bc1   0xa4  Code  Gb  os_task.o [1]
+OS_TaskQPost             0x800'6c71   0xda  Code  Gb  os_task.o [1]
+OS_TaskRdy               0x800'805f   0x18  Code  Gb  os_core.o [1]
+OS_TaskResume            0x800'6d4d   0xb6  Code  Gb  os_task.o [1]
+OS_TaskReturn            0x800'6e05   0x14  Code  Gb  os_task.o [1]
+OS_TaskSemPost           0x800'6e25  0x112  Code  Gb  os_task.o [1]
+OS_TaskSuspend           0x800'6f49   0xcc  Code  Gb  os_task.o [1]
+OS_TickListInit          0x800'8c91   0x28  Code  Gb  os_tick.o [1]
+OS_TickListInsert        0x800'8cb9   0xee  Code  Gb  os_tick.o [1]
+OS_TickListRemove        0x800'8da7   0x3c  Code  Gb  os_tick.o [1]
+OS_TickListUpdate        0x800'8e1d  0x14e  Code  Gb  os_tick.o [1]
+OS_TickTask              0x800'8bed   0x24  Code  Gb  os_tick.o [1]
+OS_TickTaskInit          0x800'8c11   0x6c  Code  Gb  os_tick.o [1]
+OS_TmrDbgListAdd         0x800'74c5   0x1a  Code  Gb  os_tmr.o [1]
+OS_TmrInit               0x800'74e9   0xb4  Code  Gb  os_tmr.o [1]
+OS_TmrLink               0x800'759d   0xb4  Code  Gb  os_tmr.o [1]
+OS_TmrTask               0x800'7699   0x78  Code  Gb  os_tmr.o [1]
+OS_TmrUnlink             0x800'7651   0x48  Code  Gb  os_tmr.o [1]
+OilAddValue             0x2000'00ec    0x4  Data  Gb  Filter.o [1]
+OilState                0x2000'00ca    0x1  Data  Gb  Filter.o [1]
+OilSubValue             0x2000'00f0    0x4  Data  Gb  Filter.o [1]
+Onlineflg               0x2000'27c7    0x1  Data  Gb  AT24cxx.o [1]
+PCap_Enable              0x800'9a43   0x12  Code  Gb  PCap.o [1]
+PCap_Init                0x800'9be7   0x64  Code  Gb  PCap.o [1]
+PCap_MEASURE             0x800'9a31   0x12  Code  Gb  PCap.o [1]
+PCap_PTL_Reset           0x800'9a1f   0x12  Code  Gb  PCap.o [1]
+PCap_Reg_Config          0x800'9ac1   0x22  Code  Gb  PCap.o [1]
+PCap_Res_Stau            0x800'9b53   0x1c  Code  Gb  PCap.o [1]
+PCap_Res_Value           0x800'9b39   0x1a  Code  Gb  PCap.o [1]
+PCap_Reset               0x800'9a0d   0x12  Code  Gb  PCap.o [1]
+PCap_SPI_Init            0x800'9b79   0x6e  Code  Gb  PCap.o [1]
+PCap_Status             0x2000'2848    0x4  Data  Gb  PCap.o [1]
+PCap_WR_SRAM             0x800'9a59   0x68  Code  Gb  PCap.o [1]
+PVD_Config               0x800'9739   0x44  Code  Gb  bsp.o [1]
+PVD_IRQHandler           0x800'96ab   0x8e  Code  Gb  bsp.o [1]
+PWR_PVDCmd               0x800'9853   0x18  Code  Gb  stm32f0xx_pwr.o [1]
+PWR_PVDLevelConfig       0x800'9845    0xe  Code  Gb  stm32f0xx_pwr.o [1]
+ProductPara             0x2000'1138   0x90  Data  Gb  AT24cxx.o [1]
+Pvd_Cnt                 0x2000'00d6    0x2  Data  Gb  Filter.o [1]
+RCC_AHBPeriphClockCmd    0x800'716d   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphClockCmd   0x800'7197   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphResetCmd   0x800'71bf   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphClockCmd   0x800'7183   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphResetCmd   0x800'71ab   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_GetClocksFreq        0x800'702d  0x13c  Code  Gb  stm32f0xx_rcc.o [1]
+REG                      0x800'9ae4   0x54  Data  Gb  PCap.o [1]
+Rd_Dev_Param             0x800'5c5d  0x338  Code  Gb  AT24cxx.o [1]
+Read_Add_Sub_FLag       0x2000'27c6    0x1  Data  Gb  modbus.o [1]
+Read_CALIBAndHeighTable
+                         0x800'3141   0x8e  Code  Gb  modbus.o [1]
+Region$$Table$$Base      0x800'b318          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'b338          --   Gb  - Linker created -
+RunVar                  0x2000'1620   0x4c  Data  Gb  AT24cxx.o [1]
+RunVar_Init              0x800'9699   0x12  Code  Gb  bsp.o [1]
+SPI_Disable              0x800'98ad   0x16  Code  Gb  PCap.o [1]
+SPI_Enable               0x800'9883   0x2a  Code  Gb  PCap.o [1]
+SRAM_DATA                0x800'9cf4  0x3b0  Data  Gb  PCap.o [1]
+SYSCFG_MemoryRemapConfig
+                         0x800'b0cd    0xe  Code  Gb  stm32f0xx_syscfg.o [1]
+SecFilStr               0x2000'272c   0x30  Data  Gb  Filter.o [1]
+SendBuf                 0x2000'263c   0x50  Data  Gb  modbus.o [1]
+SendLen                 0x2000'27c5    0x1  Data  Gb  modbus.o [1]
+SensorSoftVersion        0x800'5ff4    0x8  Data  Gb  AT24cxx.o [1]
+SetSysClock              0x800'b12f   0x3a  Code  Lc  system_stm32f0xx.o [1]
+SortArrayExtreme         0x800'5ffd   0x5a  Code  Gb  algorithm.o [1]
+SubState                0x2000'00cc    0x1  Data  Gb  Filter.o [1]
+Sub_Finish_Flag         0x2000'00c3    0x1  Data  Gb  Filter.o [1]
+Switch_Fiter             0x800'5ab1   0x30  Code  Gb  AT24cxx.o [1]
+SystemInit               0x800'b0e1   0x4e  Code  Gb  system_stm32f0xx.o [1]
+TIM2_IRQHandler          0x800'a235   0xa0  Code  Gb  Filter.o [1]
+TIM3_CH2_PWM             0x800'a389   0x52  Code  Gb  Filter.o [1]
+TIM3_PWM_INIT            0x800'a349   0x40  Code  Gb  Filter.o [1]
+TIM_ARRPreloadConfig     0x800'a109   0x16  Code  Gb  stm32f0xx_tim.o [1]
+TIM_ClearITPendingBit    0x800'a22f    0x6  Code  Gb  stm32f0xx_tim.o [1]
+TIM_Cmd                  0x800'a11f   0x16  Code  Gb  stm32f0xx_tim.o [1]
+TIM_GetITStatus          0x800'a217   0x18  Code  Gb  stm32f0xx_tim.o [1]
+TIM_ITConfig             0x800'a205   0x12  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OC2Init              0x800'a14d   0x6e  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OC2PreloadConfig     0x800'a1cd    0xe  Code  Gb  stm32f0xx_tim.o [1]
+TIM_PrescalerConfig      0x800'a0ff    0x6  Code  Gb  stm32f0xx_tim.o [1]
+TIM_SetCounter           0x800'a105    0x4  Code  Gb  stm32f0xx_tim.o [1]
+TIM_TimeBaseInit         0x800'a0a5   0x5a  Code  Gb  stm32f0xx_tim.o [1]
+TMR_LED_Double_Light    0x2000'26f8   0x34  Data  Gb  led.o [1]
+TMR_LED_Short_Light     0x2000'26c4   0x34  Data  Gb  led.o [1]
+TimeCnt                 0x2000'00c8    0x1  Data  Gb  Filter.o [1]
+Timer2_Init              0x800'a2d5   0x74  Code  Gb  Filter.o [1]
+UART1_IRQService         0x800'6567   0x86  Code  Gb  usart.o [1]
+UART1_Init               0x800'63f5  0x172  Code  Gb  usart.o [1]
+UART1_RXBuff            0x2000'1fcc   0xd4  Data  Gb  usart.o [1]
+UART1_RXBuffLen         0x2000'27c0    0x1  Data  Gb  usart.o [1]
+UART1_SendData           0x800'65f9   0x5a  Code  Gb  usart.o [1]
+UART1_TXBUFF            0x2000'20a0   0xd4  Data  Gb  usart.o [1]
+USART_ClearFlag          0x800'832d    0x4  Code  Gb  stm32f0xx_usart.o [1]
+USART_ClearITPendingBit
+                         0x800'8375    0xa  Code  Gb  stm32f0xx_usart.o [1]
+USART_Cmd                0x800'82ab   0x16  Code  Gb  stm32f0xx_usart.o [1]
+USART_DeInit             0x800'8191   0x72  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetFlagStatus      0x800'831f    0xe  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetITStatus        0x800'8331   0x44  Code  Gb  stm32f0xx_usart.o [1]
+USART_ITConfig           0x800'82f1   0x2e  Code  Gb  stm32f0xx_usart.o [1]
+USART_Init               0x800'8203   0xa8  Code  Gb  stm32f0xx_usart.o [1]
+USART_ReceiveData        0x800'82c9    0x8  Code  Gb  stm32f0xx_usart.o [1]
+USART_SendData           0x800'82c1    0x8  Code  Gb  stm32f0xx_usart.o [1]
+UartComm                0x2000'166c    0x8  Data  Gb  AT24cxx.o [1]
+UartRecvFrameOK         0x2000'27c4    0x1  Data  Gb  usart.o [1]
+UartRecvNewData         0x2000'27c3    0x1  Data  Gb  usart.o [1]
+UpCnt                   0x2000'00c5    0x1  Data  Gb  Filter.o [1]
+UserParam               0x2000'0dd4  0x364  Data  Gb  AT24cxx.o [1]
+User_Default_Param       0x800'b220   0x58  Data  Gb  AT24cxx.o [1]
+VectorTable             0x2000'0000   0xc0  Data  Gb  main.o [1]
+WaCnt                   0x2000'00c7    0x1  Data  Gb  Filter.o [1]
+Write_CALIBAndHeighTable
+                         0x800'374d  0x1cc  Code  Gb  modbus.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'3fff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__NVIC_SystemReset       0x800'30c1   0x12  Code  Lc  modbus.o [1]
+__NVIC_SystemReset       0x800'9871   0x12  Code  Lc  PCap.o [1]
+__aeabi_cfcmple          0x800'57f1         Code  Gb  FltCmpLe.o [3]
+__aeabi_cfrcmple         0x800'ae25         Code  Gb  FltCmpGe.o [3]
+__aeabi_d2iz             0x800'56b5         Code  Gb  DblToI32.o [3]
+__aeabi_d2uiz            0x800'56d9         Code  Gb  DblToI32.o [3]
+__aeabi_dadd             0x800'537b         Code  Gb  DblAddSub.o [3]
+__aeabi_dmul             0x800'552f         Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'5441         Code  Gb  DblAddSub.o [3]
+__aeabi_f2d              0x800'5349         Code  Gb  FltToDbl.o [3]
+__aeabi_f2iz             0x800'61dd         Code  Gb  FltToS32.o [3]
+__aeabi_f2uiz            0x800'5321         Code  Gb  FltToU32.o [3]
+__aeabi_fadd             0x800'62d5         Code  Gb  FltAddSub.o [3]
+__aeabi_fdiv             0x800'5747         Code  Gb  FltDiv.o [3]
+__aeabi_fmul             0x800'5271         Code  Gb  FltMul.o [3]
+__aeabi_fsub             0x800'6345         Code  Gb  FltAddSub.o [3]
+__aeabi_i2f              0x800'5731         Code  Gb  IxxToFlt.o [3]
+__aeabi_idiv             0x800'8fb5         Code  Gb  I32DivModFast.o [4]
+__aeabi_idiv0            0x800'9635         Code  Gb  IntDivZer.o [4]
+__aeabi_idivmod          0x800'8fb5         Code  Gb  I32DivModFast.o [4]
+__aeabi_ldiv0            0x800'945d         Code  Gb  I64DivZer.o [4]
+__aeabi_memcpy           0x800'ae4d         Code  Gb  ABImemcpy.o [4]
+__aeabi_ui2d             0x800'aea9         Code  Gb  IxxToDbl.o [3]
+__aeabi_ui2f             0x800'5711         Code  Gb  IxxToFlt.o [3]
+__aeabi_uidiv            0x800'8fbb         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod         0x800'8fbb         Code  Gb  I32DivModFast.o [4]
+__aeabi_uldivmod         0x800'8077         Code  Gb  I64DivMod.o [4]
+__cmain                  0x800'b339         Code  Gb  cmain.o [4]
+__exit                   0x800'b371   0x14  Code  Gb  exit.o [5]
+__iar_d2uiz              0x800'56dd         Code  Gb  DblToI32.o [3]
+__iar_data_init3         0x800'b2f1   0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                         0x800'b2b5   0x3c  Code  Gb  packbits_init_single.o [4]
+__iar_program_start      0x800'b385         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3         0x800'b279   0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'b357    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'3000   0xc0  Data  Gb  cstartup.o [1]
+_call_main               0x800'b345         Code  Gb  cmain.o [4]
+_exit                    0x800'b365         Code  Gb  cexit.o [4]
+_main                    0x800'b353         Code  Gb  cmain.o [4]
+abs                      0x800'5707    0x8  Code  Gb  abs.o [2]
+cyAsciiBuff             0x2000'1ef8   0xd4  Data  Gb  modbus_ascii.o [1]
+dwEepromHeightADValue   0x2000'277c    0x4  Data  Gb  modbus.o [1]
+dwEepromOilValue        0x2000'2780    0x4  Data  Gb  modbus.o [1]
+dwTable_k               0x2000'2790    0x4  Data  Gb  modbus.o [1]
+dwTankOilValue          0x2000'278c    0x4  Data  Gb  modbus.o [1]
+dwUpEepromHeightADValue
+                        0x2000'2784    0x4  Data  Gb  modbus.o [1]
+dwUpEepromOilValue      0x2000'2788    0x4  Data  Gb  modbus.o [1]
+exit                     0x800'b35b    0x8  Code  Gb  exit.o [2]
+floatToHexArray          0x800'60d9   0x1e  Code  Gb  algorithm.o [1]
+g_cyRevBufffLen         0x2000'2866    0x1  Data  Lc  modbus_ascii.o [1]
+get_divisor              0x800'6161   0x1c  Code  Gb  algorithm.o [1]
+get_slop                 0x800'617d   0x5a  Code  Gb  algorithm.o [1]
+l_flag                  0x2000'00cf    0x1  Data  Gb  Filter.o [1]
+main                     0x800'aef5   0x66  Code  Gb  main.o [1]
+multi_sum                0x800'613d   0x24  Code  Gb  algorithm.o [1]
+pvd_temp                0x2000'00d0    0x4  Data  Gb  Filter.o [1]
+resetPcap                0x800'9c4b   0x92  Code  Gb  PCap.o [1]
+resetPcap::ucResetCnt   0x2000'286f    0x1  Data  Lc  PCap.o [1]
+spi_read24               0x800'99c3   0x4a  Code  Gb  PCap.o [1]
+spi_read8                0x800'9977   0x4c  Code  Gb  PCap.o [1]
+spi_send_0               0x800'98c3   0x2a  Code  Gb  PCap.o [1]
+spi_send_1               0x800'98ed   0x2a  Code  Gb  PCap.o [1]
+spi_write16              0x800'9937   0x20  Code  Gb  PCap.o [1]
+spi_write32              0x800'9957   0x20  Code  Gb  PCap.o [1]
+spi_write8               0x800'9917   0x20  Code  Gb  PCap.o [1]
+square_sum               0x800'611b   0x22  Code  Gb  algorithm.o [1]
+sum                      0x800'60f7   0x24  Code  Gb  algorithm.o [1]
+timecnt                 0x2000'00ce    0x1  Data  Gb  Filter.o [1]
+u60sFilter              0x2000'1e08   0xf0  Data  Gb  Filter.o [1]
+u60sFilterBak           0x2000'00fc   0xf0  Data  Gb  Filter.o [1]
+u8SendIndex             0x2000'27c1    0x1  Data  Gb  usart.o [1]
+u8SendNum               0x2000'27c2    0x1  Data  Gb  usart.o [1]
+ulLedStatue             0x2000'27cc    0x4  Data  Gb  led.o [1]
+ulWritePCAPXramErr      0x2000'284c    0x4  Data  Gb  PCap.o [1]
+xAxis                   0x2000'01ec    0xc  Data  Gb  Filter.o [1]
+yAxis                   0x2000'00d8    0xc  Data  Gb  Filter.o [1]
+
+
+[1] = F:\信为产品\10 - SFC-A 油液传感器\SCap_Car(F3协议)\Project\Debug\Obj
+[2] = dl6M_tln.a
+[3] = m6M_tl.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  33 276 bytes of readonly  code memory
+     445 bytes of readonly  data memory
+  12 206 bytes of readwrite data memory (+ 192 absolute)
+
+Errors: none
+Warnings: none
